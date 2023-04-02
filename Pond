@@ -1,0 +1,102 @@
+var Godscanner_1, Godscanner_2, Godscanner_3, Godscanner_4, Titanscanner;
+
+
+Godscanner_1 = 0;
+Godscanner_2 = 90;
+Godscanner_3 = 180;
+Godscanner_4 = 270;
+Titanscanner = 0;
+while (true) {
+  while (90 > getX()) {
+    if (70 > scan(Titanscanner)) {
+      cannon(Titanscanner, scan(Titanscanner));
+    }
+    Titanscanner += 36;
+    if (70 > scan(Godscanner_1)) {
+      cannon(Godscanner_1, scan(Godscanner_1));
+    }
+    Godscanner_1 += 5;
+    if (70 > scan(Godscanner_2)) {
+      cannon(Godscanner_2, scan(Godscanner_2));
+    }
+    Godscanner_2 += 5;
+    if (70 > scan(Godscanner_3)) {
+      cannon(Godscanner_3, scan(Godscanner_3));
+    }
+    Godscanner_3 += 5;
+    if (70 > scan(Godscanner_4)) {
+      cannon(Godscanner_4, scan(Godscanner_4));
+    }
+    Godscanner_4 += 5;
+    swim(0);
+  }
+  while (10 < getY()) {
+    if (70 > scan(Titanscanner)) {
+      cannon(Titanscanner, scan(Titanscanner));
+    }
+    Titanscanner += 36;
+    if (70 > scan(Godscanner_1)) {
+      cannon(Godscanner_1, scan(Godscanner_1));
+    }
+    Godscanner_1 += 5;
+    if (70 > scan(Godscanner_2)) {
+      cannon(Godscanner_2, scan(Godscanner_2));
+    }
+    Godscanner_2 += 5;
+    if (70 > scan(Godscanner_3)) {
+      cannon(Godscanner_3, scan(Godscanner_3));
+    }
+    Godscanner_3 += 5;
+    if (70 > scan(Godscanner_4)) {
+      cannon(Godscanner_4, scan(Godscanner_4));
+    }
+    Godscanner_4 += 5;
+    swim(270);
+  }
+  while (10 < getX()) {
+    if (70 > scan(Titanscanner)) {
+      cannon(Titanscanner, scan(Titanscanner));
+    }
+    Titanscanner += 36;
+    if (70 > scan(Godscanner_1)) {
+      cannon(Godscanner_1, scan(Godscanner_1));
+    }
+    Godscanner_1 += 5;
+    if (70 > scan(Godscanner_2)) {
+      cannon(Godscanner_2, scan(Godscanner_2));
+    }
+    Godscanner_2 += 5;
+    if (70 > scan(Godscanner_3)) {
+      cannon(Godscanner_3, scan(Godscanner_3));
+    }
+    Godscanner_3 += 5;
+    if (70 > scan(Godscanner_4)) {
+      cannon(Godscanner_4, scan(Godscanner_4));
+    }
+    Godscanner_4 += 5;
+    swim(180);
+  }
+  while (90 > getY()) {
+    if (70 > scan(Titanscanner)) {
+      cannon(Titanscanner, scan(Titanscanner));
+    }
+    Titanscanner += 36;
+    if (70 > scan(Godscanner_1)) {
+      cannon(Godscanner_1, scan(Godscanner_1));
+    }
+    Godscanner_1 += 5;
+    if (70 > scan(Godscanner_2)) {
+      cannon(Godscanner_2, scan(Godscanner_2));
+    }
+    Godscanner_2 += 5;
+    if (70 > scan(Godscanner_3)) {
+      cannon(Godscanner_3, scan(Godscanner_3));
+    }
+    Godscanner_3 += 5;
+    if (70 > scan(Godscanner_4)) {
+      cannon(Godscanner_4, scan(Godscanner_4));
+    }
+    Godscanner_4 += 5;
+    swim(90);
+  }
+}
